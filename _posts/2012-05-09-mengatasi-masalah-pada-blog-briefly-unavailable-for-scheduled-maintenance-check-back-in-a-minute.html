@@ -1,0 +1,40 @@
+---
+layout: post
+title: 'Mengatasi Masalah pada Blog: Briefly unavailable for scheduled maintenance.
+  Check back in a minute.'
+date: 2012-05-09 13:00:41.000000000 +07:00
+type: post
+published: true
+status: publish
+permalink: /web-development/mengatasi-masalah-pada-blog-briefly-unavailable-for-scheduled-maintenance-check-back-in-a-minute/
+categories:
+- Web Development
+tags:
+- FileZilla
+- FTP
+- Internet
+- Wordpress
+meta:
+  _edit_last: '1'
+  image: ''
+  seo_follow: 'false'
+  seo_noindex: 'false'
+  dsq_thread_id: '682316149'
+  _yoast_wpseo_linkdex: '66'
+  _spost_short_title: ''
+  _yoast_wpseo_focuskw: briefly unavailable for scheduled maintenance
+  _yoast_wpseo_title: Briefly unavailable for scheduled maintenance WordPress
+  _yoast_wpseo_metadesc: Briefly unavailable for scheduled maintenance, notifikasi
+    ini muncul setelah saya update beberapa plugin pada WordPress. Berikut solusinya.
+author:
+  login: tito
+  email: tito@pandubrahmanto.com
+  display_name: Tito
+  first_name: Tito
+  last_name: Pandu Brahmanto
+---
+<p>Tadi pagi saya menerima notifikasi update dari Wordpress untuk mengupdate salah satu plugin. Langsung saya update plugin tersebut dan disaat sedang loading web page, saya arahkan ke menu admin lainnya. Hasilnya, <strong>BOOM!!</strong>, blog saya langsung menunjukan <strong>“Briefly unavailable for scheduled maintenance. Check back in a minute.”</strong> dan saya tunggu dan refresh berkali-kali tapi hasilnya tetap saja message tersebut muncul. Jika Anda memiliki problem yang sama, simak troubleshooting yang saya dapatkan dari hasil pencarian Google.<!--more--></p>
+<p>Pertama, langsung siapkan software FTP client Anda. <a class="zem_slink" title="FileZilla" href="http://filezilla-project.org" rel="homepage" target="_blank">FileZilla</a> merupakan pilihan yang baik karena gratis dan open source. Setelah itu login ke <a class="zem_slink" title="File Transfer Protocol" href="http://en.wikipedia.org/wiki/File_Transfer_Protocol" rel="wikipedia" target="_blank">FTP server</a> pada hosting Anda.</p>
+<p>Masuklah ke direktori website Anda (biasanya pada public_html), lalu cari file <strong>.maintenance</strong> (ada titik sebelum nama file). Saran saya rename saja file tersebut sesuka hati Anda dengan cara klik kanan file, lalu pilih rename.</p>
+<p>Refresh kembali website Anda dan Yay!!, sudah kembali normal. Jika Anda memiliki pertanyaan, jangan segan untuk meninggalkan komentar.</p>
+<div class="zemanta-pixie" style="margin-top: 10px; height: 15px;"><a class="zemanta-pixie-a" title="Enhanced by Zemanta" href="http://www.zemanta.com/"><img class="zemanta-pixie-img" style="border: none; float: right;" src="{{ site.baseurl }}/assets/zemified_c.png?x-id=b5d1a7cc-1845-4ff7-a575-d8e8f430e2c0" alt="Enhanced by Zemanta" /></a></div>

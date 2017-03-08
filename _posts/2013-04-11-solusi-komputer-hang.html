@@ -1,0 +1,63 @@
+---
+layout: post
+title: Solusi Komputer Hang
+date: 2013-04-11 16:00:40.000000000 +07:00
+type: post
+published: true
+status: publish
+permalink: /troubleshooting/solusi-komputer-hang/
+categories:
+- Troubleshooting
+tags:
+- computers
+- harddisk
+- how to
+- Motherboard
+- power supply
+- vga
+meta:
+  _yoast_wpseo_linkdex: '81'
+  _edit_last: '1'
+  _yoast_wpseo_focuskw: komputer hang
+  _yoast_wpseo_metadesc: Beberapa gejala yang dapat kita temukan saat komputer hang.
+    Gejala-gejala ini menentukan di mana akar permasalahannya. Berikut solusinya.
+  image: ''
+  _spost_short_title: ''
+author:
+  login: tito
+  email: tito@pandubrahmanto.com
+  display_name: Tito
+  first_name: Tito
+  last_name: Pandu Brahmanto
+---
+<p>Mulai saat ini saya akan membuat beberapa post mengenai solusi dari permasalahan komputer yang sering kita hadapi. Kali ini saya akan membahas mengenai komputer yang tiba-tiba hang. Ada beberapa gejala yang dapat kita temukan saat komputer hang. Gejala-gejala ini menentukan di mana akar permasalahannya. Seringkali masalah tersebut sebenarnya dapat kita selesaikan sendiri tanpa menunggu bantuan teknisi atau "Orang IT". Berikut beberapa gejala serta solusi untuk menyelesaikannya.<!--more--></p>
+<hr />
+<h2>1. Komputer Hang, namun normal kembali setelah CPU digoyang-goyang</h2>
+<p>Komputer tiba-tiba hang atau muncul pesan not responding saat menjalankan aplikasi atau membuka explorer atau membuka isi harddisk. Namun mouse masih dapat digerakkan dan aplikasi akan kembali berjalan saat CPU digoyang-goyang.</p>
+<h3>Analisa:</h3>
+<p>Masalah ini kemungkinan besar terjadi pada kabel atau konektor, biasanya konektor dari Power Supply (PSU) ke harddisk. Dapat juga disebabkan oleh kabel atau konektor dari harddisk ke motherboard.</p>
+<h3>Solusi:</h3>
+<p>Sebelum menentukan bahwa kabel atau konektor bermasalah, tidak ada salahnya mengecek tegangan yang masuk dari Power Supply ke motherboard. Bila tegangan menunjukan perbedaan yang sangat jauh dengan spesifikasi yang dibutuhkan motherboard, maka Power Supply sebaiknya diganti.</p>
+<p>Selanjutnya coba ganti konektor dari Power Supply ke harddisk, konektor yang saat ini terhubung dengan konektor lainnya yang tidak terpakai. Kemungkinan terjadi lepas kontak pada konektor tersebut, hal ini sesuai dengan gejala yang disebutkan sebelumnya.</p>
+<p>Bila kedua solusi tersebut tidak berhasil, coba ganti kabel IDE atau SATA (kabel dari harddisk ke motherboard), mungkin kabel tersebut sudah mulai longgar.</p>
+<hr />
+<h2>2. Komputer Hang, tetapi tidak mati atau restart secara otomatis</h2>
+<p>Komputer Hang, tetapi tidak langsung mati atau restart secara otomatis. Kita dapat melihat layar berhenti dan tidak ada respon dari komputer saat kita menggerakkan mouse atau menekan Ctrl + Alt + Delete.</p>
+<h3>Analisa:</h3>
+<p>Kemungkinan hal ini disebabkan oleh kurangnya tegangan yang masuk dari Power Supply ke Motherboard. Banyak orang langsung menginstall ulang komputernya, namun langkah ini tidak akan menyelesaikan masalah.</p>
+<h3>Solusi:</h3>
+<p>Shutdown atau Restart komputer secara paksa melalui tombol power pada CPU. Saat komputer booting, tekan Delete atau F2 atau F8, tergantung dari BIOS yang dipakai oleh Motherboard. Cek tegangan Power Supply biasanya ada pada menu Hardware Monitor, cek tegangan 3.3V, 5V dan 12V. Baiknya +- 5% dari tegangan normal, jika berbeda jauh, maka hal tersebut adalah masalah utamanya.</p>
+<p>Jika Power Supply Anda tidak bermasalah, kemungkinan selanjutnya bisa terjadi dari VGA. Jika Anda memiliki VGA lainnya (external atau internal), cobalah mengganti VGA yang sekarang dipakai dengan VGA lainnya.</p>
+<p>Jika semuanya sudah dicek dan ternyata tidak bermasalah, segeralah backup data Anda dan cobalah untuk melakukan install ulang operating system Anda (Windows atau Linux).</p>
+<hr />
+<h2>3. Komputer Hang saat loading Windows</h2>
+<p>Masalah yang paling sering terjadi, tetapi banyak yang salah pengertian dalam mengatasi masalah ini. Saya akan coba membantu dengan berbagi sedikit pengalaman saya.</p>
+<p>Analisa:<br />
+Banyak hal yang dapat menyebabkan ini. Dari sisi Hardware, masalah ini sering disebabkan oleh Power Supply dan Harddisk. Dari sisi Software, masalah ini bisa disebabkan oleh driver atau system file yang rusak, bisa dari virus atau harddisk yang bad sector.</p>
+<p>Solusi:<br />
+Cek tegangan Power Supply dengan cara yang saya jabarkan pada point nomor 2. Untuk mengecek harddisk Anda bisa melihat point nomor 1 untuk pengecekan kabel power dan kabel IDE / SATA.</p>
+<p>Bila masalahnya memang pada harddisk itu sendiri, cobalah untuk membuka CPU dan mendengar suara harddisk, bila ada suara "click click clik", artinya harddisk Anda sudah sekarat. Segera backup dan ganti.</p>
+<p>Untuk mengecek Bad Sector dapat dilakukan dengan masuk ke Safe Mode (di Windows tekan F8 sesaat setelah selesai BIOS loading). Pilih Safe Mode with Command Prompt, begitu Command Prompt sudah muncul, ketik chkdsk [drive] /r /f. Maka Windows akan meminta Anda merestart komputer, setelah itu Windows akan melakukan pengecekan Bad Sector.</p>
+<p>Jika memang bukan masalah hardware, Anda dapat melakukan install ulang system, saya selalu menganggap install ulang adalah jalan terakhir untuk menyelesaikan masalah ini.</p>
+<hr />
+<p>Sekian beberapa solusi dan tips untuk mengatasi komputer yang hang. Saya akan selalu mengupdate post ini bila ada solusi baru yang saya temukan. Bila Anda pernah mengalami hal ini dan mengatasinya dengan solusi lain, silahkan tinggalkan pengalaman Anda pada komentar. Saya akan sangat senang sekali mendengarnya.</p>

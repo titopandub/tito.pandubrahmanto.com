@@ -1,0 +1,94 @@
+---
+layout: post
+title: Tutorial Belajar JavaScript - Pengantar
+date: 2012-05-11 16:00:26.000000000 +07:00
+type: post
+published: true
+status: publish
+permalink: /web-development/tutorial-belajar-javascript-pengantar/
+categories:
+- Web Development
+tags:
+- how to
+- javascript
+- learning
+meta:
+  _edit_last: '1'
+  image: ''
+  seo_follow: 'false'
+  seo_noindex: 'false'
+  _syntaxhighlighter_encoded: '1'
+  dsq_thread_id: '685415468'
+  _yoast_wpseo_linkdex: '70'
+  _series_part: '1'
+  _yoast_wpseo_focuskw: Belajar JavaScript
+  _yoast_wpseo_title: Tutorial Belajar JavaScript - Pengantar - Blog of Tito Pandu
+  _yoast_wpseo_metadesc: Pengantar untuk sebuah post berseri mengenai belajar JavaScript
+    bagi para pemula. Disajikan dalam bahasa Indonesia.
+author:
+  login: tito
+  email: tito@pandubrahmanto.com
+  display_name: Tito
+  first_name: Tito
+  last_name: Pandu Brahmanto
+---
+<p>[caption id="attachment_1446" align="alignright" width="150"]<a href="http://tito.pandubrahmanto.com/wp-content/uploads/2012/05/JSconf_logo.png"><img class="size-thumbnail wp-image-1446" title="JSconf_logo" src="{{ site.baseurl }}/assets/JSconf_logo-150x150.png" alt="JavaScript JSconf logo" width="150" height="150" /></a> Unofficial logo from JSConf EU 2011[/caption]</p>
+<p>Anda mungkin sudah membaca post mengenai bagaimana untuk <a title="Belajar Bahasa Pemrograman: Javascript" href="http://tito.pandubrahmanto.com/web-development/belajar-bahasa-pemrograman-javascript/">mempelajari Bahasa Pemrograman Javascript</a>. Anda bisa mempelajarinya secara interaktif melalui <a title="Learn to Code, Codeacademy" href="http://www.codecademy.com/">Codeacademy</a> atau Eloquent JavaScript, seperti yang Anda baca pada post sebelumnya. Karena kedua sumber tersebut memakai Bahasa Inggris, saya rasa mungkin ada baiknya jika saya bisa memberikan tutorial mengenai belajar JavaScript dalam Bahasa Indonesia.<br />
+<!--more--><br />
+Javascript termasuk bahasa pemrograman yang sangat populer dan sangat mudah digunakan. Anda hanya memerlukan <strong>web browser terkini (Google Chrome, Safari, IE 9, Opera)</strong> dan <strong>text editor (Notepad++, TextMate)</strong>. Namun jika Anda menginginkan editor untuk pemrograman JavaScript yang lebih advance dan tentunya mudah digunakan, saya menyarankan untuk menggunakan <strong>Microsoft Web Matrix (untuk Windows) atau Aptana IDE (untuk Windows, Linux dan Mac OS X)</strong>.</p>
+<hr />
+<h2>Meletakkan JavaScript dalam file HTML</h2>
+<p>Anda akan membutuhkan HTML dalam penulisan kode Javascript pada halaman web. Berikut ini adalah HTML minimal yang Anda butuhkan untuk mengeksekusi kode JavaScript kita. File HTML akan selalu berekstensi .html, Anda dapat membuat file index.html seperti contoh di bawah ini.</p>
+<p>[sourcecode language="html" highlight="7,8,9"]<br />
+&lt;!DOCTYPE html&gt;</p>
+<p>&lt;html lang=&quot;en&quot;&gt;<br />
+	&lt;head&gt;<br />
+		&lt;meta charset=&quot;utf-8&quot; /&gt;<br />
+		&lt;title&gt;&lt;/title&gt;<br />
+		&lt;script&gt;<br />
+			alert(&quot;Hello World!&quot;);<br />
+		&lt;/script&gt;<br />
+	&lt;/head&gt;<br />
+	&lt;body&gt;</p>
+<p>	&lt;/body&gt;<br />
+&lt;/html&gt;<br />
+[/sourcecode]</p>
+<p>Ada cara lain yang lebih baik dalam meletakkan kode JavaScript, yaitu sebelum menutup body tag. Seperti ini.</p>
+<p>[sourcecode language="html" highlight="10,11,12"]<br />
+&lt;!DOCTYPE html&gt;</p>
+<p>&lt;html lang=&quot;en&quot;&gt;<br />
+	&lt;head&gt;<br />
+		&lt;meta charset=&quot;utf-8&quot; /&gt;<br />
+		&lt;title&gt;&lt;/title&gt;<br />
+	&lt;/head&gt;<br />
+	&lt;body&gt;</p>
+<p>		&lt;script&gt;<br />
+			alert(&quot;Hello World!&quot;);<br />
+		&lt;/script&gt;<br />
+	&lt;/body&gt;<br />
+&lt;/html&gt;<br />
+[/sourcecode]</p>
+<hr />
+<h2>Penulisan JavaScript</h2>
+<p>Kode JavaScript selalu menempel pada HTML dalam penggunaannya sebagai skrip pada web page. Untuk menggunakannya biasanya ditaruh dalam script tag. Ada dua cara penulisan JavaScript, pertama adalah menulisnya di dalam tag seperti contoh sebelumnya. Namun menulis seperti itu akan tercampur menjadi satu dengan tag HTML atau stylesheet lainnya, serta jika kode tersebut dibutuhkan di beberapa halaman web, maka akan menjadi pekerjaan yang berulang-ulang.</p>
+<p>Cara kedua, yaitu dengan memasukkan JavaScript pada suatu file dengan ekstensi .js, contohnya pada skrip.js yang diisi dengan hanya kode JavaScript tanpa script tag dan menambahkan parameter src pada script tag. Jangan lupa untuk selalu menutup tagnya. Berikut ini contoh index.html.</p>
+<p>[sourcecode language="html" highlight="10"]<br />
+&lt;!DOCTYPE html&gt;</p>
+<p>&lt;html lang=&quot;en&quot;&gt;<br />
+	&lt;head&gt;<br />
+		&lt;meta charset=&quot;utf-8&quot; /&gt;<br />
+		&lt;title&gt;&lt;/title&gt;<br />
+	&lt;/head&gt;<br />
+	&lt;body&gt;</p>
+<p>		&lt;script src=&quot;skrip.js&quot;&gt;&lt;/script&gt;<br />
+	&lt;/body&gt;<br />
+&lt;/html&gt;<br />
+[/sourcecode]</p>
+<p>Dan ini contoh skrip.js.</p>
+<p>[sourcecode language="javascript"]<br />
+alert(&quot;Hello World!&quot;);<br />
+[/sourcecode]</p>
+<p>Dengan memakai cara kedua akan memudahkan kita dalam menulis dan melakukan perubahan pada kode JavaScript kita. Hal ini juga memudahkan jika Anda memiliki banyak script, seperti framework dan plugin-pluginnya. Jika kode JavaScript Anda banyak dan besar ukurannya juga dengan mudah dapat di-minify supaya lebih cepat proses loading halaman webnya.</p>
+<hr />
+<p>Sekian perkenalan dari saya. Saya harap dengan membaca ini, Anda sudah bisa memulai untuk belajar JavaScript. Nantikan post saya selanjutnya mengenai variable pada JavaScript. Anda dapat subscribe ke <a title="RSS dari Tito Pandu Personal Blog" href="http://feeds.feedburner.com/TitoPanduPersonalBlog">RSS</a> atau ke <a href="http://eepurl.com/lFtwn" target="_blank">email list</a> untuk mendapatkan update tutorial selanjutnya. Jangan lupa tinggalkan komentar bila ada pertanyaan ataupun saran.</p>
+<p>Sumber: <a title="Tuts+ Premium Course: JavaScript Fundamentals 101" href="http://tutsplus.com/course/javascript-fundamentals/" target="_blank">Tuts+ Premium Course: JavaScript Fundamentals 101</a> oleh Jeremy McPeak</p>
