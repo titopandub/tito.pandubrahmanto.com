@@ -26,6 +26,7 @@ meta:
     of Tito Pandu
   _yoast_wpseo_metadesc: Pada tutorial kali ini, kita akan belajar JavaScript mengenai
     variable dan tipe data. Kita akan fokus pada deklarasi variable dan tipe data.
+comments: true
 author:
   login: tito
   email: tito@pandubrahmanto.com

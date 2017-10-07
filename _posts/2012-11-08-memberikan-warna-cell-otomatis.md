@@ -22,6 +22,7 @@ meta:
   _edit_last: '1'
   _spost_short_title: ''
   dsq_thread_id: '5553406753'
+comments: true
 author:
   login: tito
   email: tito@pandubrahmanto.com

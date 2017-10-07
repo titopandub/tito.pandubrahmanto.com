@@ -21,6 +21,7 @@ meta:
   seo_noindex: 'false'
   _spost_short_title: ''
   dsq_thread_id: '5553700492'
+comments: true
 author:
   login: tito
   email: tito@pandubrahmanto.com

@@ -21,6 +21,7 @@ meta:
   _yoast_wpseo_linkdex: '75'
   _edit_last: '1'
   dsq_thread_id: '5554018376'
+comments: true
 author:
   login: tito
   email: tito@pandubrahmanto.com

@@ -22,6 +22,7 @@ meta:
   _yoast_wpseo_focuskw: cara mudah menambah tweet untuk blog post
   _yoast_wpseo_title: Cara Mudah Menambah Tweet untuk Blog Post
   _spost_short_title: ''
+comments: true
 author:
   login: tito
   email: tito@pandubrahmanto.com

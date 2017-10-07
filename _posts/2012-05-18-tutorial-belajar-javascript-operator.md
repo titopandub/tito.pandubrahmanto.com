@@ -25,6 +25,7 @@ meta:
   _yoast_wpseo_metadesc: Pada tutorial kali ini, kita akan belajar JavaScript mengenai
     Operator. Kita akan membahas operator pada tipe data integer, float dan string
   dsq_thread_id: '5553485105'
+comments: true
 author:
   login: tito
   email: tito@pandubrahmanto.com

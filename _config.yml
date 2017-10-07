@@ -21,7 +21,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Opini dalam blog ini mewakili opini saya dan bukan merupakan opini dari tempat saya bekerja.
   Beberapa Teknologi yang saya sukai, yaitu Ruby, Rails, JavaScript, Elixir dan Elm
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://tito.pandubrahmanto.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tito.pandubrahmanto.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tito_pandu
 github_username:  titopandub
 pagination:
@@ -42,6 +42,12 @@ pagination:
   trail:
     before: 2
     after: 2
+disqus:
+  shortname: blogtitopandu
+google_analytics: UA-30869003-1
+facebook:
+  app_id: 1450324088312218
+google_site_verification: "05vIbG4L6TMMz7ZRjI-6G8hCXj6yhxz02Ool0YVwmlg"
 
 # Build settings
 markdown: kramdown
@@ -49,6 +55,8 @@ theme: minima
 gems:
   - jekyll-feed
   - jekyll-paginate-v2
+  - jekyll-youtube
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock

@@ -18,6 +18,7 @@ meta:
   seo_follow: 'false'
   seo_noindex: 'false'
   _spost_short_title: ''
+comments: true
 author:
   login: tito
   email: tito@pandubrahmanto.com

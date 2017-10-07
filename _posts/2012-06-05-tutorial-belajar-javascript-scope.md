@@ -24,6 +24,7 @@ meta:
   _yoast_wpseo_title: Tutorial Belajar JavaScript - Scope - Blog of Tito Pandu
   _yoast_wpseo_metadesc: Pada tutorial kali ini, kita akan belajar JavaScript mengenai
     scope. Kita akan mempelajari perbedaan dan penggunaan Global dan Local Scope.
+comments: true
 author:
   login: tito
   email: tito@pandubrahmanto.com

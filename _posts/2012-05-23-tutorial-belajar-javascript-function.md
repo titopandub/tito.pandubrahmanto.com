@@ -25,6 +25,7 @@ meta:
   _yoast_wpseo_metadesc: Pada tutorial kali ini, kita akan belajar JavaScript mengenai
     Function. Kita akan mempelajari beragam cara menggunakan JavaScript function.
   dsq_thread_id: '5553490207'
+comments: true
 author:
   login: tito
   email: tito@pandubrahmanto.com

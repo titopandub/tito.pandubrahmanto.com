@@ -20,6 +20,7 @@ meta:
   seo_noindex: 'false'
   _series_part: '9'
   _spost_short_title: ''
+comments: true
 author:
   login: tito
   email: tito@pandubrahmanto.com

@@ -24,6 +24,7 @@ meta:
     Loop. Beberapa fungsi yang dipelajari yaitu while, do .. while dan for.
   _series_part: '10'
   _spost_short_title: ''
+comments: true
 author:
   login: tito
   email: tito@pandubrahmanto.com

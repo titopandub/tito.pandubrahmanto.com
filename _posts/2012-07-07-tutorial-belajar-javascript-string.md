@@ -24,6 +24,7 @@ meta:
   _yoast_wpseo_title: Tutorial Belajar JavaScript - String - Blog of Tito Pandu
   _yoast_wpseo_metadesc: Pada tutorial kali ini, kita akan belajar JavaScript mengenai
     tipe data String. Kita akan mengenal beberapa properti dan metode dari String.
+comments: true
 author:
   login: tito
   email: tito@pandubrahmanto.com
