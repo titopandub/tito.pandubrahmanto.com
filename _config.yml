@@ -57,6 +57,7 @@ gems:
   - jekyll-paginate-v2
   - jekyll-youtube
   - jekyll-seo-tag
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
