@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Pengalaman Menggunakan OS untuk Desktop
+description: Dari Windows, Linux, Mac dan kembali ke Linux
 date: 2017-11-30 20:05:00.000000000 +07:00
 type: post
 published: true
