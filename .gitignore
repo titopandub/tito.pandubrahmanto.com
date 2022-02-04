@@ -5,6 +5,10 @@ _site/
 .sass-cache/
 .jekyll-metadata
 
+### Firebase ###
+firebase-debug.log
+.firebase/
+
 ### macOS ###
 *.DS_Store
 .AppleDouble

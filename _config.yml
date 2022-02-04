@@ -52,7 +52,7 @@ google_site_verification: "05vIbG4L6TMMz7ZRjI-6G8hCXj6yhxz02Ool0YVwmlg"
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-youtube

@@ -3,7 +3,7 @@ layout: post
 title: Merokok = GOBLOK!!
 date: 2012-07-02 10:00:11.000000000 +07:00
 type: post
-published: true
+published: false
 status: publish
 permalink: /inspiring-stories/merokok-goblok/
 categories:
