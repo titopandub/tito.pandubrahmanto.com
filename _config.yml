@@ -17,9 +17,8 @@ title: A Programmer Blog
 email: tito@pandubrahmanto.com
 description: > # this means to ignore newlines until "baseurl:"
   Hi, nama saya Tito Pandu Brahmanto.
-  Saya adalah seorang Software Engineer yang bekerja di KMKLabs.
+  Saya adalah seorang Software Engineer yang bekerja di Vidio.com.
   Opini dalam blog ini mewakili opini saya dan bukan merupakan opini dari tempat saya bekerja.
-  Beberapa Teknologi yang saya sukai, yaitu Ruby, Rails, JavaScript, Elixir dan Elm
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tito.pandubrahmanto.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tito_pandu
