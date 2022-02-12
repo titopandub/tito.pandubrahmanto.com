@@ -13,6 +13,7 @@ tags:
 - linux
 - ubuntu
 - nvidia
+- cuda
 comments: true
 author:
   login: tito
@@ -32,12 +33,16 @@ Di pagi harinya, ternyata PC saya tidak ter-suspend, masih menyala dan ada di me
 
 Saya mencoba mencari akar permasalahannya melalui log seperti `less /var/log/syslog` dan `dmesg`, namun saya tidak menemukan sesuatu yang aneh. Selanjutnya saya mencoba mencari di internet apakah ada yang mengalami masalah yang sama. Penyebab dari masalah ini semakin sulit ditemukan karena saya juga mengupgrade kernel.
 
-Saat itu saya tidak bisa menemukan permasalahan yang sama di driver versi 510 ataupun di kernel yang baru saya upgrade. Setelah berjam-jam tidak ditemukan, akhirnya saya coba untuk kembali ke versi sebelumnya, siapa tahu akan normal kembali. Pertama yang saya coba adalah kembali ke versi kernel sebelumnya. Saya melakukannya melalui setting GRUB. Setting default GRUB yang ada pada PC saya tidak menampilkan pilihan Safe Boot ke kernel versi sebelumnya. Saya perlu menggantinya di sini.
+Saat itu saya tidak bisa menemukan permasalahan yang sama di driver versi 510 ataupun di kernel yang baru saya upgrade. Setelah berjam-jam tidak ditemukan, akhirnya saya coba untuk kembali ke versi sebelumnya, siapa tahu akan normal kembali. Pertama yang saya coba adalah kembali ke versi kernel sebelumnya. Saya melakukannya melalui setting GRUB. Setting default GRUB yang ada pada PC saya tidak menampilkan pilihan Safe Boot ke kernel versi sebelumnya. Saya perlu menambahkan dua line (atau menggantinya) di sini.
 
 ### /etc/default/grub
 
 ```
+GRUB_TIMEOUT_STYLE=menu
+GRUB_TIMEOUT=10
 ```
+
+Lalu menjalankan command `sudo update-grub` dan restart PC untuk masuk ke menu GRUB dan memilih kernel.
 
 # Solusi Pertama, Revert
 
@@ -201,4 +206,6 @@ case "$1" in
 esac
 ```
 
-Dan setelah memasang beberapa script tersebut, PC saya bisa suspend dengan normal seperti sediakala. Sekian dari saya. Terima kasih.
+Dan setelah memasang beberapa script tersebut, PC saya bisa suspend dengan normal seperti sediakala. Saya tidak mencoba untuk menghapus CUDA dari sistem, hal ini karena saya membutuhkannya untuk pekerjaan.
+
+Sekian dari saya. Terima kasih.
