@@ -12,6 +12,10 @@ layout: default
     {{ content }}
   </div>
 
+  <div class="related-posts">
+    {% include related_posts.html %}
+  </div>
+
   {% if site.disqus.shortname %}
     {% include disqus.html %}
   {% endif %}

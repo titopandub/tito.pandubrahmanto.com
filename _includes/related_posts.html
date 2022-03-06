@@ -1,0 +1,8 @@
+<h2>Suka Artikel ini?</h2>
+<p>Berikut beberapa artikel yang mungkin kamu suka dan baca selanjutnya:</p>
+    
+<ul>
+	{% for post in site.related_posts limit:5 %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
+</ul>
