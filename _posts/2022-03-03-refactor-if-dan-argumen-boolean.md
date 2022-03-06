@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Refactor `if` dan Argumen Boolean
-description: Refactor 
+description: Refactor `if` dan Argumen Boolean dalam bahasa pemrograman Python
 date: 2022-03-03 15:00:33.222222222 +07:00
 type: post
 published: true
