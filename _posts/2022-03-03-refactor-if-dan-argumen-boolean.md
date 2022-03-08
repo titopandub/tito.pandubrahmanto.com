@@ -12,6 +12,8 @@ categories:
 tags:
 - python
 - refactoring
+- flag argument
+- boolean argument
 comments: true
 author:
   login: tito
@@ -24,6 +26,8 @@ author:
 Di dalam pemrograman, hal yang sangat penting adalah bagaimana membuat komputer *bereaksi* terhadap kondisi. Salah satu cara yang sering dilakukan adalah dengan membuat conditional `if`. Penggunaan keyword `if` berbeda-beda tergantung bahasa pemrograman yang digunakan. Biasanya syntaxnya adalah `if kondisi then kondisi_benar else kondisi salah`.
 
 Meskipun sangat diperlukan dan bermanfaat, penggunaan `if` yang ada di banyak tempat membuat kode yang kita buat agak sulit dipahami. Apalagi jika kondisi yang akan diperiksa merupakan argumen untuk sebuah fungsi. Ini membuat bingung orang lain yang membacanya (mungkin orang lain ini kita sendiri di masa depan).
+
+edit: Saya baru menemukan artikel dari Martin Fowler mengenai [FlagArgument](https://martinfowler.com/bliki/FlagArgument.html). Teman-teman bisa mendapatkan alasan lebih detil dan kapan kita tidak perlu me-refactor hal ini.
 
 ![Photo by Chris Ried on Unsplash]({{ site.baseurl }}/assets/chris-ried-ieic5Tq8YMk-unsplash-optimize.jpg "Photo by Chris Ried on Unsplash")
 Photo by <a href="https://unsplash.com/@cdr6934?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Chris Ried</a> on <a href="https://unsplash.com/s/photos/python?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
