@@ -23,6 +23,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tito.pandubrahmanto.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tito_pandu
 github_username:  titopandub
+linkedin_username: titopandub
 locale: 'id_ID' 
 pagination:
   enabled: true

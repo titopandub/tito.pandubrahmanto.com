@@ -9,7 +9,7 @@ ruby "2.7.5"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "3.9.1"
+gem "jekyll", "4.2.2"
 gem "jekyll-paginate-v2"
 gem "webrick"
 gem "kramdown-parser-gfm"
