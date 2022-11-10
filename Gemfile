@@ -15,8 +15,6 @@ gem "webrick"
 gem "kramdown-parser-gfm"
 gem "classifier-reborn"
 gem "gsl"
-gem "narray"
-gem "nmatrix"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima"
